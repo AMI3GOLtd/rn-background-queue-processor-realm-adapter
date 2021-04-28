@@ -4,11 +4,11 @@ This package is designed for [rn-background-queue-processor](https://github.com/
 
 ## Compatibility
 
-Our current version works well for `Realm: v5.0.3`
+Our current version works well for `Realm: v10.4.0`
 
 ## Usage
 
-Here is a [working demo app](https://github.com/technogise/rn-background-queue-processor/tree/master/examples/rnqpSample)
+This packages is forked from @technogise. Here is a [working demo app](https://github.com/technogise/rn-background-queue-processor/tree/master/examples/rnqpSample)
 
 - Two schema are there to store all jobs and Failed jobs 
 - Job Schema contains all the Jobs ready for execution 
@@ -28,12 +28,12 @@ Functions that are used in [rn-background-queue-processor](https://github.com/te
 
 #### Installation steps
 
-`npm i @technogise/rn-background-queue-processor-realm-adapter`
+`npm i rn-background-queue-processor-realm-adapter`
 
 #### Example import
 
 ```
-import { RealmAdapter } from '@technogise/rn-background-queue-processor-realm-adapter';
+import { RealmAdapter } from 'rn-background-queue-processor-realm-adapter';
 
 constructor() {
     const dbAdapter = new RealmAdapter(ExampleJob.prototype);
