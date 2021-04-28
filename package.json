@@ -1,7 +1,7 @@
 {
-  "name": "@technogise/rn-background-queue-processor-realm-adapter",
-  "version": "1.0.0",
-  "description": "This package is designed for [rn-background-queue-processor](https://github.com/technogise/rn-background-queue-processor) to store Jobs in persistent Realm storage.",
+  "name": "rn-background-queue-processor-realm-adapter",
+  "version": "1.0.1",
+  "description": "Forked from @technogise/rn-background-queue-processor-realm-adapter to work with Realm v10.x. This package is designed for [rn-background-queue-processor](https://github.com/technogise/rn-background-queue-processor) to store Jobs in persistent Realm storage.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/technogise/rn-background-queue-processor-realm-adapter.git"
+    "url": "git+https://github.com/ami3goltd/rn-background-queue-processor-realm-adapter.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/technogise/rn-background-queue-processor-realm-adapter/issues"
+    "url": "https://github.com/ami3goltd/rn-background-queue-processor-realm-adapter/issues"
   },
-  "homepage": "https://github.com/technogise/rn-background-queue-processor-realm-adapter#readme",
+  "homepage": "https://github.com/ami3goltd/rn-background-queue-processor-realm-adapter#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/runtime": "^7.5.5",
